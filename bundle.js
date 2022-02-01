@@ -2815,7 +2815,7 @@ module.exports.formatError = function (err) {
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	(() => {
-/******/ 		__webpack_require__.h = () => ("f08f9a96b7deb68c37f1")
+/******/ 		__webpack_require__.h = () => ("315065823d2ac90d56aa")
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
@@ -3229,6 +3229,18 @@ window.onscroll = function () {
     }
   });
 };
+
+var cards = document.querySelectorAll('.card');
+
+var _loop = function _loop(i) {
+  cards[i].addEventListener('click', function () {
+    cards[i].classList.toggle('is-flipped');
+  });
+};
+
+for (var i = 0; i < cards.length; i++) {
+  _loop(i);
+}
 })();
 
 /******/ })()
