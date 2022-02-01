@@ -2815,7 +2815,7 @@ module.exports.formatError = function (err) {
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	(() => {
-/******/ 		__webpack_require__.h = () => ("93fdf533ead5b45d041c")
+/******/ 		__webpack_require__.h = () => ("56d70f420243dd13a5d6")
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
@@ -3228,7 +3228,20 @@ window.onscroll = function () {
       li.classList.add("active");
     }
   });
+}; //card flip for portfolio section
+
+
+var cards = document.querySelectorAll('.card');
+
+var _loop = function _loop(i) {
+  cards[i].addEventListener('click', function () {
+    cards[i].classList.toggle('is-flipped');
+  });
 };
+
+for (var i = 0; i < cards.length; i++) {
+  _loop(i);
+}
 })();
 
 /******/ })()
