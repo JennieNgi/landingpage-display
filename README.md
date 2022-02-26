@@ -10,6 +10,6 @@
 - The use of gird and flexbox is demonstrated thru the layout of the page
 - Document Object Model is implemented
 - If else statement is used
-- While loop is used
+- loop is used
 
 ## Credit/Acknowledgment
