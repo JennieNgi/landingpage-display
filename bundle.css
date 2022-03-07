@@ -428,67 +428,8 @@ section:nth-child(even) {
   color: var(--first-color-second);
 }
 
-.skills_bar,
-.skills_percentage {
-  height: 5px;
-  border-radius: 0.25rem;
-}
-
 .skills_right {
   width: 100%;
-}
-
-.skills_bar {
-  background-color: var(--first-color-alt);
-}
-
-.skills_percentage {
-  display: block;
-  background-color: #fff;
-}
-
-.skills_html {
-  width: 90%;
-}
-
-.skills_css {
-  width: 80%;
-}
-
-.skills_javascript {
-  width: 60%;
-}
-
-.skills_webpack {
-  width: 40%;
-}
-
-.skills_python {
-  width: 60%;
-}
-
-.skills_java {
-  width: 40%;
-}
-
-.skills_sql {
-  width: 60%;
-}
-
-.skills_linux {
-  width: 40%;
-}
-
-.skills_IIS {
-  width: 60%;
-}
-
-.skills_uml {
-  width: 40%;
-}
-
-.skills_git {
-  width: 40%;
 }
 
 .skills_list {
@@ -533,6 +474,7 @@ section:nth-child(even) {
 .qualification_title {
   font-weight: 500;
   font-size: 1.4rem;
+  color: #fff;
 }
 
 .qualification_title,
